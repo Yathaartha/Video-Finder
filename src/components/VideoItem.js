@@ -14,7 +14,7 @@ const VideoItem = ({ video, onVideoSelect }) => {
       <img
         className="ui image"
         src={video.snippet.thumbnails.medium.url}
-        alt="thumbnail"
+        alt={video.snippet.title}
         style={{ maxWidth: "180px" }}
       ></img>
       <div className="content">
